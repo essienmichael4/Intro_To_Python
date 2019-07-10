@@ -1,0 +1,44 @@
+#What Code does
+i = 0
+while(i<10):
+	i=i+1
+	print (i)
+
+#Printing 7-20
+i = 6
+while(i<20):
+        i=i+1
+        print (i)
+
+#Printing Even numbers from 12-20
+i = 10
+while(i<20):
+        i=i+2
+        print (i)
+
+#Even numbers
+def evens():
+	numbers=[]
+	num1 = int(input("Enter first number: "))
+	num2 = int(input("Enter second number: "))
+	for num in range(num1, num2+1):
+		if num % 2 == 0:
+			numbers.append(num)
+	return numbers
+print ('Calling evens')
+even_list=evens()
+print (even_list)
+
+#Reverse Even numbers
+def reverse_evens():
+	number = []
+	num3 = int(input("Enter first number: "))
+	num4 = int(input("Enter second number: "))
+	for num in range(num3-1, num4):
+		if num % 2 == 0:
+			 number.append(num)
+	return number
+print("Calling Reverse Evens"
+reverse_list=reverse_evens()
+print(reverse_list)
+

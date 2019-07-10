@@ -1,0 +1,21 @@
+for i in range(1,11):
+	print (i)
+#the code is iterating through 1 to 11
+#i  is an int varible and range is a function 
+
+for j in [1, 2, 3]:
+	print (j)
+#The code is iterating through the list J
+
+#Using Range
+for j in range(1,3)
+	print (j)
+
+#Type is a list
+#Range returns integer
+
+
+def evens():
+        for j in range(1, 4):
+		print('*')
+evens()

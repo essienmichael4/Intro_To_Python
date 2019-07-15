@@ -1,5 +1,7 @@
-(4 + 5)
-(8 * 3)
-(4 / 3)
-(4.0 / 3)
-(3 + 5 * 9)
+def add(num1.num2):
+    return num1+num2
+
+def add_10(num1):
+    return add(num1,10)
+        
+print(add_10(55))
